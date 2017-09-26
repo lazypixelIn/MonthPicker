@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@id/iconLeft"
+        android:src="@drawable/ic_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatTextView
+
+        android:id="@id/monthName"
+        android:layout_width="wrap_content"
+        android:text="Jan,2017"
+        android:paddingStart="24dp"
+        android:layout_toEndOf="@id/iconLeft"
+        android:paddingEnd="24dp"
+
+        android:textSize="18dp"
+
+        android:textColor="@android:color/background_dark"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:src="@drawable/ic_right"
+        android:id="@id/iconRight"
+        android:layout_toEndOf="@id/monthName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <GridLayout
+        android:id="@id/gridItem"
+        android:layout_marginTop="10dp"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="3"
+        android:useDefaultMargins="true"
+        android:layout_below="@id/monthName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

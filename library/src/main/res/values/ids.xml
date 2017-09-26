@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="iconLeft" type="id" />
+    <item name="monthName" type="id" />
+    <item name="gridItem" type="id" />
+    <item name="iconRight" type="id" />
+</resources>
